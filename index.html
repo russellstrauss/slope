@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Point Cloud</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/sass/main.css">
+	
+</head>
+<body>
+	
+	<div class="container"></div>
+	<div class="message"></div>
+	<div id="legend">
+		<span class="legend-title">Controls</span>
+		<div class="backdrop">
+			<table>
+				<thead>
+					<tr class="divider">
+						<td>Function</td>
+						<td>Key</td>
+					</tr>
+				</thead>
+				<tr class="divider">
+					<td>Rotate</td>
+					<td>left click</td>
+				</tr>
+				<tr>
+					<td>Pan</td>
+					<td>right click</td>
+				</tr>
+				<tr>
+					<td>Zoom</td>
+					<td>scroll</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<script src="assets/vendors/js/d3.v5.min.js"></script>
+	<script src="https://d3js.org/d3-color.v2.min.js"></script>
+	<script src="https://d3js.org/d3-interpolate.v2.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script>
+	
+	<script src="assets/vendors/js/three.js/build/three.js"></script>
+	<script src="assets/vendors/js/three.js/examples/js/controls/OrbitControls.js"></script>
+	<script src="assets/vendors/js/three.js/examples/js/math/Lut.js"></script>
+	<script src="assets/vendors/js/three.js/examples/js/loaders/OBJLoader.js"></script>
+	<script src="assets/vendors/js/three.js/examples/js/libs/dat.gui.min.js"></script>
+	<script src="assets/vendors/js/three.js/examples/js/libs/stats.min.js"></script>
+	<script src="assets/js/bundle.js"></script>
+</body>
+</html>
